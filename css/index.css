@@ -124,21 +124,6 @@ main #home .content1 .parrafo1{
     margin-right: 10px;
 }
 
-main #home .content2 .logo{
-    width: 150px;
-    height: 200px;
-    margin-left: 50px;
-}
-
-main #home .content2 .video{
-    width: 250px;
-    height: 200px;
-    margin-top: 50px;
-    border: 2px solid blue;
-    margin-left: 200px;
-    margin-right: 100px;
-}
-
 main #service{
     background-color: gray;
     background-size: cover;
@@ -215,15 +200,42 @@ main #contact .form-container .form-group .pristine-error{
     color: red;
 }
 
+main #contact .content2 .logo{
+    width: 150px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+main #contact .content2 .video{
+    width: 250px;
+    height: 200px;
+    margin-top: 50px;
+    border: 2px solid blue;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
 @media (max-width:768px){
     main .inicio{
         color: goldenrod !important;
     }
 }
 
-@media (max-width:495px){
+@media (max-width:630px){
+    main #service{
+        margin-top: auto;
+    }
+}
+
+
+@media (max-width:630px){
     main #contact{
         margin-top: 330px;
     }
 }
 
+@media (max-width:630px){
+    main #contact .logo{
+        margin-top: 50px;
+    }
+}
